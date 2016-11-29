@@ -8,7 +8,6 @@ import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.kroll.common.AsyncResult;
 import org.appcelerator.kroll.common.TiMessenger;
 import org.appcelerator.titanium.TiApplication;
-import org.appcelerator.titanium.TiContext;
 import org.appcelerator.titanium.proxy.TiViewProxy;
 import org.appcelerator.titanium.view.TiUIView;
 
@@ -20,10 +19,6 @@ public class ShimmerViewProxy extends TiViewProxy {
     private static final int MSG_END_SHIMMING = MSG_FIRST_ID + 901;
 
     public ShimmerViewProxy() {
-        super();
-    }
-
-    public ShimmerViewProxy(TiContext tiContext) {
         super();
     }
 

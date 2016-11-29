@@ -2,8 +2,9 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1.1
-apiversion: 2
+version: 1.0.0
+apiversion: 3
+architectures: armeabi-v7a x86
 description: Facebook’s Shimmer port for Titanium SDK
 author: Pier Paolo Ramon
 license: LGPL2.1
@@ -15,4 +16,4 @@ name: shimmer
 moduleid: it.ti.shimmer
 guid: 62fe1422-137c-423c-b3bf-d48468bbfa84
 platform: android
-minsdk: 3.2.0.GA
+minsdk: 6.0.0
